@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    margin: 1em auto;
+    width: 25%;
+    text-align: center;
+}
+
+#main{
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+
+}
+.textos{
+    margin: 10px;
+}
+
+.textosEntradas{
+    margin: 10px 0px;
+}
+
+#mensagem{
+    height: 10em;
+}
+
+.entradas{
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#botao{
+    width: 20em;
+    height: 40px;
+    color: white;
+    background: rgb(32, 137, 223);
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+}
+
+
+#envioSucesso{
+    width: 15%;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 3em;
+    background: rgb(27, 197, 27);
+    color: white;
+    font-weight: bold;
+    margin: 2em auto;
+    text-align: center;
+
+}
+
+#envioFalho{
+    width: 15%;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 3em;
+    background: rgb(197, 33, 27);
+    color: white;
+    font-weight: bold;
+    margin: 2em auto;
+    text-align: center;
+}
+
+#btnVoltar{
+    width: 10%;
+    height: 30px;
+    background: rgb(32, 137, 223);
+    border-radius: 5px;
+    position: relative;
+    left: 43%;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
